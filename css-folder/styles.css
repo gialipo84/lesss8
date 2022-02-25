@@ -1,0 +1,194 @@
+ .header1 {
+     width: 100%;
+     margin-top: 15px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+.ul-clas{
+    color: #3D37F1;
+    display: flex;
+    align-items: center;
+}
+li{
+    margin-right: 10px;
+}
+.qvedasatauri{
+    color: #4386D2;
+}
+.qvedasatauri2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.mtavari-divi1{
+  
+    display: flex;
+    width: 1700px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 260px;
+}
+.marcxenadivi{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.marjvenadivi{
+    
+    width: 600px;
+    height: 400px;
+}
+.img1{
+    width: 100%
+}
+.satauri{
+    font-size: 50px;
+    width: 350px;
+    margin-bottom: 50px;
+}
+.text{
+    width: 350px;
+    height: 100px;
+    margin-bottom: 60px;
+}
+.wavediv{
+    background-color: #4386D2;
+    color: white;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.sataurisdivi{
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.didikvedadivi{
+    
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+
+.qvedadivebi{
+    width: 370px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s;
+    
+}
+.qvedadivebi:hover .textdivebi{
+    color: white;
+    font-size: large;
+}
+.qvedadivebi:hover .img2{
+    opacity: 0.5;
+}
+.qvedadivebi:hover .divrid{
+    border-color: darkblue;
+}
+.div1{
+    margin-top: 20px;
+}
+.img2{
+    width: 70px;
+    height: 70px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.textdivebi{
+    width: 328px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.divrid{
+    display: flex;
+    width: 131px;
+    height: 40px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 23px;
+    justify-content: center; 
+    align-items: center;
+    transition: all 0.5s;
+}
+.divrid:hover{
+    background-color:dimgray;
+    width: 150px;
+    height: 50px;
+    box-shadow: 5px 5px 4px dimgrey;
+    border-color: dimgray;
+}
+.yviteli{
+    background-color: #FBBA77;
+}
+.mwvane{
+    background-color: #41EAE3;
+}
+.nariji{
+    background-color: #69529F;
+}
+
+.lurji{
+    background-color: #4386D2;
+}
+.iasamani{
+    background-color: #A5A2F6;
+}
+.witeli{
+    background-color: #FF8088;
+}
+
+@media (max-width: 1500px){
+   .mtavari-divi1 {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+
+   }
+}
+@media (max-width:1500px) {
+   .div12{
+      width: 250px;
+   }
+}
+@media(max-width:1500px){
+   .satauri{
+      font-size: 25px;
+      width: 100%;
+   }
+}
+
+@media (max-width: 1500px){
+   .didikvedadivi {
+      width: 200px;
+      flex-direction: column;
+   }
+}
+@media(max-width: 1300px){
+   .sataurisdivi{
+      background-color: #41EAE3;
+      width: 200px;
+      
+   }
+}
